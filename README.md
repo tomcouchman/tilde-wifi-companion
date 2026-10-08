@@ -1,88 +1,74 @@
-<p align="center">
-  <img src="assets/tilde-app-icon.png" alt="TILDE_ app icon, a green wave on a near-black square" width="112" />
-</p>
-
-<h1 align="center">TILDE_</h1>
-<p align="center"><strong>Quietly watching your connection.</strong></p>
-<p align="center">
-  An Android Wi-Fi companion designed to turn connection-security signals into understandable guidance.
-</p>
-<p align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.tildecompanion.app"><strong>View on Google Play</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://tomcouchman.github.io/tilde.html">Portfolio case study</a>
-  &nbsp;·&nbsp;
-  <a href="https://moondocks.github.io/privacy.html">Privacy policy</a>
-</p>
+<div align="center">
+  <img src="assets/tilde-app-icon.png" alt="TILDE_ icon: bright green wave on a near-black background" width="108">
+  <h1>TILDE_</h1>
+  <p><strong>Wi-Fi Companion · Android app · Published on Google Play</strong></p>
+  <p><em>Quietly watching your connection.</em></p>
+  <p>A security-awareness companion that turns Android Wi-Fi and VPN signals into understandable guidance.</p>
+  <p><strong><a href="https://play.google.com/store/apps/details?id=com.tildecompanion.app">View on Google Play</a></strong> · <strong><a href="https://tomcouchman.github.io/tilde.html">Portfolio case study</a></strong> · <a href="https://moondocks.github.io/">Moon Docks</a></p>
+</div>
 
 ---
 
-## The problem
+## The idea
 
-People connect to Wi-Fi in cafés, hotels, airports and other unfamiliar places without always knowing what the connection means for their security. Technical network information is useful, but it can be difficult to interpret and easy to overstate.
+Unfamiliar Wi-Fi can be confusing: a connection may look normal without giving someone enough context to make a sensible decision. TILDE_ was my attempt to make available connection information **clear, calm and actionable**—without pretending that an app can guarantee a network is safe.
 
-**TILDE_ focuses on awareness rather than alarm:** explain what Android reports, surface meaningful changes, and help people make more informed decisions.
+## Inside the app
 
-## What the app does
-
-- **Connection awareness** — presents available Wi-Fi security information in plain language.
-- **Guardian** — watches for meaningful network changes when enabled and explains what deserves attention.
-- **Trusted networks** — lets users recognise familiar networks using Home, Work and custom profiles.
-- **VPN awareness** — reports whether Android indicates an active VPN; it does not provide VPN connectivity.
-- **Connection Health** — turns network checks and status information into readable context.
-- **History** — lets users review useful connection changes and alerts.
-- **Optional TILDE_+** — offers additional features without changing the app's security boundaries.
-
-## Inside TILDE_
-
-These are screenshots from the public Google Play listing (images are served by Google Play).
+Six original **1080 × 1920** screenshots. Click any image to view the full-size PNG.
 
 <table>
+  <tbody>
   <tr>
-    <td align="center"><img src="https://play-lh.googleusercontent.com/fJJeyTyxQmGim2fFkr9JLdq6YKpOrtJ8nCMrD5XkA5vNYBhOkeSkCpn4jRwyYDR_VS-CxntU6L462lozGhbuqw=w526-h296" alt="Google Play screenshot: Connection awareness" width="270" /></td>
-<td align="center"><img src="https://play-lh.googleusercontent.com/mWKHr4RNnr4PExPCHnNr9Yod_mr2VtP6WpZp0SH6RI71jMNypPOvzoX0f4Yj032zVGmhQuy4TKOQRBWiHVE1EQ=w526-h296" alt="Google Play screenshot: Guardian monitoring" width="270" /></td>
-<td align="center"><img src="https://play-lh.googleusercontent.com/z7wJzmaaWFBOnw4npT_fTZKimhtuD4pi_M_3Tk1makg533LkypwNmax1V9hunBjMa2dBTuyJ-OVHOs9oBr0kAvE=w526-h296" alt="Google Play screenshot: Trusted networks" width="270" /></td>
+    <td align="center" width="33%"><a href="assets/screenshots/01-connection-overview.png"><img src="assets/screenshots/01-connection-overview.png" alt="Home screen, network status and VPN awareness" width="230"></a><br><sub><strong>Connection overview</strong></sub></td>
+    <td align="center" width="33%"><a href="assets/screenshots/02-guardian-monitoring.png"><img src="assets/screenshots/02-guardian-monitoring.png" alt="Meaningful background network alerts" width="230"></a><br><sub><strong>Guardian monitoring</strong></sub></td>
+    <td align="center" width="33%"><a href="assets/screenshots/03-trusted-networks.png"><img src="assets/screenshots/03-trusted-networks.png" alt="Trust profiles and Travel Mode" width="230"></a><br><sub><strong>Trusted networks</strong></sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://play-lh.googleusercontent.com/O3U-fM3_U2ko9rBKb7-XELGZ9cQfgL90KcD9hsgddu8U6bTlA8FvdJ1OylnNrYG50KE1uGEE_K5Rm2VKrdeNvg=w526-h296" alt="Google Play screenshot: History" width="270" /></td>
-<td align="center"><img src="https://play-lh.googleusercontent.com/r63lkOMOthkdLYszGlJhQzOrwC8TEVAQosjg3oj2ZUxZ-zIqsBXi2aG_6qrnGrRIrggmNCHG13JDu7M_mGK2=w526-h296" alt="Google Play screenshot: Connection health" width="270" /></td>
-<td align="center"><img src="https://play-lh.googleusercontent.com/XhQ-0v4ZUk0Sg4F10WhWt5lB1nBowdXWMmR9KRjzm67e_SDpLpWIhO58dv5RVpBjQ4uWsgSvCGQnUYoD450Qkg=w526-h296" alt="Google Play screenshot: Guardian details" width="270" /></td>
+    <td align="center" width="33%"><a href="assets/screenshots/04-security-history.png"><img src="assets/screenshots/04-security-history.png" alt="Searchable local connection and security history" width="230"></a><br><sub><strong>Security history</strong></sub></td>
+    <td align="center" width="33%"><a href="assets/screenshots/05-connection-health.png"><img src="assets/screenshots/05-connection-health.png" alt="Readable network and connectivity checks" width="230"></a><br><sub><strong>Connection Health</strong></sub></td>
+    <td align="center" width="33%"><a href="assets/screenshots/06-guardian-details.png"><img src="assets/screenshots/06-guardian-details.png" alt="Alert types and monitoring controls" width="230"></a><br><sub><strong>Guardian details</strong></sub></td>
   </tr>
+  </tbody>
 </table>
 
-[Explore all screenshots on Google Play](https://play.google.com/store/apps/details?id=com.tildecompanion.app)
+### What it offers
 
-## My contribution and development approach
+- **Connection awareness** — readable Wi-Fi security information and Android-reported VPN status.
+- **Guardian** — alerts for meaningful network changes when monitoring is enabled.
+- **Trusted networks & Travel Mode** — distinguish familiar Wi-Fi from networks that deserve more caution.
+- **Connection Health** — explain connectivity checks and important connection signals.
+- **Local history** — review and search recent network events and alerts.
+- **TILDE_+** — optional additional features for users who want more detail.
 
-I **conceived TILDE_ and led its development direction**: deciding its purpose, prioritising security and usability goals, shaping features and interface behaviour, testing Android builds, identifying problems, iterating on revisions, and taking the product through Google Play release preparation and publication.
+## My contribution — and the role of AI
 
-**Implementation disclosure:** I used AI coding tools to produce and revise much of the Flutter/Dart and Kotlin implementation. I am **not claiming to have personally written that code** or to have professional proficiency in those languages. My role centred on product direction, security reasoning, testing, validation and release decisions.
+**I conceived and directed TILDE_**, defining the purpose and feature priorities, shaping how security information should be explained, reviewing the interface, testing Android builds, identifying issues, guiding iterations and taking the product through Google Play publication.
 
-**Technology used by the app:** Android · Flutter/Dart · Kotlin. These are application technologies, **not a list of programming languages I claim to know**.
+**AI-assisted implementation:** AI coding tools produced and revised much of the app's Flutter/Dart and Kotlin code. I do **not** present those languages as personal programming skills or claim that I wrote the implementation myself. My contribution was focused on **product direction, security reasoning, testing, iteration and release**.
 
-## Security decisions and boundaries
+*Technology used in the application: Android · Flutter/Dart · Kotlin.*
 
-| Decision | Why it matters |
+## Security thinking and limitations
+
+| Principle | Decision |
 | --- | --- |
-| Explain signals rather than promise safety | A Wi-Fi security indicator cannot establish that a network is safe. |
-| Treat “trusted” as familiar, not verified secure | The user recognises the network; the app does not certify it. |
-| Report Android VPN status | TILDE_ can provide context but is **not** a VPN. |
-| Keep sensitive network history on-device by design | Reduces unnecessary transfer of network details to the developer. |
-| Explain platform limitations | Android exposes some network information only when the relevant permissions and APIs allow it. |
+| **Awareness, not certainty** | Security signals need explanation; they cannot prove that a Wi-Fi network is safe. |
+| **Trust isn't verification** | A trusted-network label means the user recognises the network, not that it has been certified secure. |
+| **Be precise about VPNs** | The app reports VPN status available from Android; it does not provide a VPN service. |
+| **Privacy-conscious by design** | Trusted networks and security history are designed to stay on the device. |
+| **Respect platform limitations** | Information and alerts depend on Android APIs, permissions and the signals the device exposes. |
 
-TILDE_ is **not** antivirus software, a firewall, a VPN or a guarantee against threats on public Wi-Fi. It is a companion for interpreting available information and making informed choices.
+TILDE_ is **not antivirus software, a firewall or a VPN**, and it cannot guarantee protection on public Wi-Fi. Its job is to help users understand the connection information available to them.
 
-## What this project demonstrates
+## Why it belongs in my cybersecurity portfolio
 
-This project complements my defensive-security work, particularly **[HomeSOC Log Analyzer](https://github.com/tomcouchman/homesoc-log-analyzer)**. HomeSOC focuses on rule-based analysis of authentication logs; TILDE_ focuses on communicating network/security context to everyday users. Together they represent different parts of my cybersecurity learning: interpretation, caution about claims, testing and clear communication.
+TILDE_ complements my **[HomeSOC Log Analyzer](https://github.com/tomcouchman/homesoc-log-analyzer)** project. HomeSOC demonstrates practical Python-based log analysis; TILDE_ demonstrates applying security concepts to a real-world user problem, recognising technical limits and communicating them responsibly.
 
-## Project links
-
-- [Google Play — TILDE_](https://play.google.com/store/apps/details?id=com.tildecompanion.app)
-- [Portfolio — TILDE_ case study](https://tomcouchman.github.io/tilde.html)
-- [Moon Docks — app information and privacy](https://moondocks.github.io/)
-- [Personal cybersecurity portfolio](https://tomcouchman.github.io/)
+It also gave me hands-on experience of product testing, documenting issues, refining software behaviour and bringing an app to a public release.
 
 ---
 
-<sub>This repository is a **public project showcase**, not the application source code. Product implementation, private configuration, signing materials and internal build files are not published here.</sub>
+**[Google Play](https://play.google.com/store/apps/details?id=com.tildecompanion.app)** · **[Personal portfolio](https://tomcouchman.github.io/tilde.html)** · **[Moon Docks](https://moondocks.github.io/)**
+
+<sub>Public project showcase only. This repository does not contain the application's source code, signing materials, private configuration or internal build files.</sub>
